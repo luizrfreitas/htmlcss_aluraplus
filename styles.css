@@ -1,0 +1,115 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    
+}
+
+/* Apresentação */
+
+.apresentacao {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    background-image: url(img/Background.png);
+    font-weight: bold;
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*Imagem do background compreende todo o tamanho da tela assim */
+    max-height: 600px;
+
+}
+
+.apresentacao__caixa {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+
+.apresentacao__texto {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.apresentacao__imagem {
+    width: 60%;
+    padding-bottom: 1.5rem;
+}
+
+.botao  {
+    padding: 1rem 0;
+    width: 90%;
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.botao__destacado {
+    border-color: var(--botao-azul);
+    background-color: var(--botao-azul);
+}
+
+.apresentacao__descricao {
+    font-size: 12px;
+}
+
+/*info__1*/
+
+.info__1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: start;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0 3rem;
+    height: 100vw;
+    max-height: 600px;
+}
+
+.info__1--titulo {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/*  RODAPE  */
+
+.rodape {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+    align-items: center;
+
+
+}
+
+.rodape__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.lista__item {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 1rem;
+}
+
+
